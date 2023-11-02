@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.6</version>
+        <version>3.1.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -13,11 +13,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <properties>
         <java.version>11</java.version>
-        <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
-        <maven-dependency-check-plugin.version>7.0.4</maven-dependency-check-plugin.version>
-        <maven-git-commit-id-plugin.version>5.0.0</maven-git-commit-id-plugin.version>
-        <maven-jacoco-plugin.version>0.8.8</maven-jacoco-plugin.version>
-        <maven-spotbugs-plugin.version>4.5.3.0</maven-spotbugs-plugin.version>
+        <maven-checkstyle-plugin.version>3.3.1</maven-checkstyle-plugin.version>
+        <maven-dependency-check-plugin.version>8.4.2</maven-dependency-check-plugin.version>
+        <maven-git-commit-id-plugin.version>5.0.1</maven-git-commit-id-plugin.version>
+        <maven-jacoco-plugin.version>0.8.11</maven-jacoco-plugin.version>
+        <maven-spotbugs-plugin.version>4.7.3.5</maven-spotbugs-plugin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -94,7 +94,6 @@
                 <version>${maven-checkstyle-plugin.version}</version>
                 <configuration>
                     <configLocation>checkstyle.xml</configLocation>
-                    <encoding>UTF-8</encoding>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <linkXRef>false</linkXRef>
