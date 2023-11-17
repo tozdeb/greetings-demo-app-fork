@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
             steps {
             // Sklonuj repozytorium GIT
-            git 'https://github.com/tozdeb/greetings-demo-app-fork.git'
+            //git 'https://github.com/tozdeb/greetings-demo-app-fork.git'
             
             // Zbuduj przy pomocy Mavena
             sh './mvnw package'
