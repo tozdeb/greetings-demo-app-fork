@@ -11,3 +11,7 @@ Java 11 or newer
 * `./mvnw package` - build application (all output files are in `target` directory)
 * `./mvnw spring-boot:run` - run application
 * `./mvnw dependency-check:aggregate` - report known vulnerabilities (CVEs) in project dependencies
+
+## Oryginalne Repozytorium
+
+* https://bitbucket.org/enowe/greeting-demo-app.git/src
